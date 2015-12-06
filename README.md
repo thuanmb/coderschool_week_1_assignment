@@ -1,4 +1,7 @@
-# Required User Stories
+
+#Completed jobs
+
+## Required User Stories
 - The User must be able to go two pages: Menu, and Contact Us.
 - The User can see the address and phone number on the contact us page.
 - The User can see a basic google map on the Contact Us page.
@@ -26,7 +29,10 @@
 - The User is able to fill in their name, phone number, and address.
 - The User is taken to a “Thank you for your order page” that lists the name of item, the total cost (delivery should cost 20,000 VND), the user’s name, the user’s address, and the time the order was created in human-readable format (for example, Tuesday, December 1, 15:25).
 
-# Bonus User Stories
+## Bonus User Stories
 - The User can also filter by type of Cuisine.
 - The User can see how many times each menu item has been viewed, and sort items by “most viewed”.
 - The user can input “CODERSCHOOL” as a coupon code on the order page, which should give a 50% discount off of the order.
+
+## Demo
+![Demo](/demo/thuan_restaurant_demo.gif)
