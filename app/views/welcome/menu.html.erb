@@ -1,0 +1,55 @@
+<div class="row">
+    <ul class="nav nav-pills" role="tablist">
+        <% SECTIONS.each do |section| %>
+            <%= activeClass(section).html_safe %>
+            <%= link_to section, {:action => 'menu', :section => section}, {:class => :'btn btn-lg'} %></li>
+        <% end %>
+    </ul>
+</div>
+
+<div class="row food-item-list "> 
+    <div class="row">
+        <div class="dropdown food-sort">
+            <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">Sort foods
+            </button>
+            <ul class="dropdown-menu">
+                <% SORT_OPTION.each do |option| %>
+                    <li><%= link_to option[:html].html_safe, setUrlParam('orderBy', option[:id]) %></li>
+                <% end %>
+                <li><%= link_to 'Clear Sort', setUrlParam('orderBy', nil) %></li>
+            </ul>
+        </div>
+
+        <div class="dropdown food-sort">
+            <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">Filter foods
+            </button>
+            <ul class="dropdown-menu">
+                <% FILTER_OPTION.each do |option| %>
+                        <li><%= link_to option[:html].html_safe, setUrlParam('filterBy', option[:id]) %></li>
+                <% end %>
+                <li><%= link_to 'Clear Filter', setUrlParam('filterBy', nil) %></li>
+            </ul>
+        </div>
+        
+    </div>
+
+    <div class="list-group col-md-6 food-list col-sm-12">
+        <% @foods.each do |food| %>
+            <a href="#" class="list-group-item" data-id="<%= food.id %>">
+                <span>
+                    <%= food.name %>
+                    <span class="badge viewed-count"><%= food.num_of_viewed == nil ? 0 : food.num_of_viewed %></span>
+                </span>
+                <span class="badge price"><%= number_to_currency(food.price, precision: 1, unit: "VND", format: "%n %u") %></span>
+            </a>
+        <% end %>
+    </div>
+    <div class="food-details-container col-md-6 col-xs-12"></div>
+</div>
+
+<%= javascript_tag do %>
+    window.foods =  <%= raw @foods.to_json %>
+    $('#navbar li.menu').addClass('active');
+<% end %>
+
+<%= javascript_include_tag 'foods_menu' %>

@@ -1,0 +1,123 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container {
+    min-width: 80%;
+}
+
+.navbar {
+    padding: 0 !important;
+}
+
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+}
+
+.welcome {
+    &.index {
+        .fullscreen {
+            position: absolute;
+            width: 100%;
+            top: 40px;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        .bg {
+            background: url(bg-restaurant.jpg) no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        .content {
+            background-color: rgba(0, 0, 0, 0.75);
+            text-align: center;
+
+            padding-top: 200px;
+        }
+
+        h4 {
+            color: #ccc;
+        }
+
+        .option-container {
+            margin-top: 20px;
+
+            .btn {
+                margin: 5px;
+                width: 200px;
+            }
+        }
+
+    }
+
+    &.contact_us {
+        .address {
+            li {
+                list-style: none;
+            }
+        }
+
+        .addr-icon {
+            margin-right: 5px;
+        }
+
+        .addr-detail {
+            margin-left: 13px;
+        }
+
+        .map {
+            margin-top: 25px;
+        }
+    }
+
+    &.menu {
+        .food-list {
+            max-height: 500px;
+            overflow-y: scroll;
+
+            .list-group-item {
+                border-bottom: 1px solid #999;
+                margin-bottom: 5px;
+            }
+        }
+
+        .food-details {
+            background-color: #fff;
+            .card-block {
+                color: #333;
+            }
+        }
+
+        .food-item-list {
+            margin-top: 30px;
+
+            .row {
+                margin-left: 0;
+            }
+
+            .badge {
+                &.price {
+                    background-color: #5CB85C;
+                }
+
+                &.viewed-count {
+                    background-color: #EC971F;
+                }
+            }
+        }
+
+        .dropdown {
+            display: inline-block;
+        }
+
+        .food-sort {
+            margin-bottom: 7px;
+        }
+    }
+}

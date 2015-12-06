@@ -1,0 +1,13 @@
+<div class="col-md-6 col-md-offset-3 order-content">
+	<h3>Thank you for your order</h3>
+	<div class='card order-details'> 
+		<img class='card-img-top' src='<%= @food.imageUrl %>' alt='<%= @food.name %>'> 
+		<div class='card-block'> 
+			<h2 class='card-title'><%= @order.name %></h2> 
+			<h4 class='card-text price'><%= number_to_currency(@price, precision: 1, unit: 'VND', format: '%n %u') %></h4> 
+			<p class='card-text address'><%= @order.address %></p>
+			<p class='card-text date'><%=  @order.created_at.to_formatted_s(:long_ordinal) %></p>
+			<%= link_to 'Back to Menu', {:controller => 'welcome', :action => 'menu'}, {:class => 'btn btn-primary'} %>
+		</div> 
+	</div>
+</div>

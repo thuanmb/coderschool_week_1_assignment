@@ -1,0 +1,26 @@
+.order {
+    &.create {
+        .field_with_errors {
+            display: block;
+        }
+    }
+}
+
+.alert {
+    background-color: #df691a;
+}
+
+.order-content {
+    h3 {
+        text-align: center;
+    }
+    
+    .order-details {
+        margin-top: 25px;
+        background-color: #fff;
+
+        .card-block {
+            color: #333;
+        }
+    }
+}

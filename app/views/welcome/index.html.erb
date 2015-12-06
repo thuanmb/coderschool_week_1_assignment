@@ -1,0 +1,13 @@
+<div class="bg fullscreen"></div>
+    <div class="content fullscreen">
+        <h1>Welcome to Thuan's Restaurant,</h1>
+        <h4>The top restaurant in Vietnam.</h4>
+        <div class="option-container">
+            <%= link_to 'Menu', {:controller => "welcome", :action => "menu"}, {:class => :'btn btn-lg btn-primary'} %>
+            <%= link_to 'Contact', {:controller => "welcome", :action => "contact_us"}, {:class => :'btn btn-lg btn-primary'} %>
+    </div>
+</div>
+
+<%= javascript_tag do %>
+    $('#navbar li.home').addClass('active');
+<% end %>

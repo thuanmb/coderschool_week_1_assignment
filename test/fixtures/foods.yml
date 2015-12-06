@@ -1,0 +1,181 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: Pho 1 star
+  description: Beef, Noodle
+  price: 30000
+  section: Breakfast
+  imageUrl: http://www.taste.com.au/images/recipes/nb/2007/05/17677_l.jpg
+  type_of_cuisine: 0
+  num_of_viewed: 0
+
+two:
+  name: Pho 2 star
+  description: Beef, Noodle
+  price: 35000
+  section: Breakfast
+  imageUrl: http://www.taste.com.au/images/recipes/nb/2007/05/17677_l.jpg
+  type_of_cuisine: 0
+  num_of_viewed: 0
+
+three:
+  name: Pho 3 star
+  description: Beef, Noodle
+  price: 40000
+  section: Breakfast
+  imageUrl: http://www.taste.com.au/images/recipes/nb/2007/05/17677_l.jpg
+  type_of_cuisine: 0
+  num_of_viewed: 0
+
+four:
+  name: Pho 4 star
+  description: Beef, Noodle
+  price: 45000
+  section: Breakfast
+  imageUrl: http://www.taste.com.au/images/recipes/nb/2007/05/17677_l.jpg
+  type_of_cuisine: 1
+  num_of_viewed: 0
+
+five:
+  name: Pho 5 star
+  description: Beef, Noodle
+  price: 50000
+  section: Breakfast
+  imageUrl: http://www.taste.com.au/images/recipes/nb/2007/05/17677_l.jpg
+  type_of_cuisine: 1
+  num_of_viewed: 0
+
+six:
+  name: Com Suon 1 star
+  description:  Pork, Rice
+  price: 25000
+  section: Launch
+  imageUrl: https://i.ytimg.com/vi/Hlr8nD8cNW4/maxresdefault.jpg
+  type_of_cuisine: 0
+  num_of_viewed: 0
+
+seven:
+  name: Com Suon 2 star
+  description:  Pork, Rice
+  price: 30000
+  section: Launch
+  imageUrl: https://i.ytimg.com/vi/Hlr8nD8cNW4/maxresdefault.jpg
+  type_of_cuisine: 0
+  num_of_viewed: 0
+
+eight:
+  name: Com Suon 3 star
+  description:  Pork, Rice
+  price: 40000
+  section: Launch
+  imageUrl: https://i.ytimg.com/vi/Hlr8nD8cNW4/maxresdefault.jpg
+  type_of_cuisine: 0
+  num_of_viewed: 0
+
+nine:
+  name: Com Suon 4 star
+  description:  Pork, Rice
+  price: 50000
+  section: Launch
+  imageUrl: https://i.ytimg.com/vi/Hlr8nD8cNW4/maxresdefault.jpg
+  type_of_cuisine: 1
+  num_of_viewed: 0
+
+ten:
+  name: Com Suon 5 star
+  description:  Pork, Rice
+  price: 70000
+  section: Launch
+  imageUrl: https://i.ytimg.com/vi/Hlr8nD8cNW4/maxresdefault.jpg
+  type_of_cuisine: 1
+  num_of_viewed: 0
+
+eleven:
+  name: Bun Bo 1 star
+  description:  Beef, Noodle
+  price: 50000
+  section: Dinner
+  imageUrl: http://danangfoodie.com/wp-content/uploads/2014/03/bh-7.jpg
+  type_of_cuisine: 0
+  num_of_viewed: 0
+
+twelve:
+  name: Bun Bo 2 star
+  description:  Beef, Noodle
+  price: 55000
+  section: Dinner
+  imageUrl: http://danangfoodie.com/wp-content/uploads/2014/03/bh-7.jpg
+  type_of_cuisine: 0
+  num_of_viewed: 0
+
+thirteen:
+  name: Bun Bo 3 star
+  description:  Beef, Noodle
+  price: 60000
+  section: Dinner
+  imageUrl: http://danangfoodie.com/wp-content/uploads/2014/03/bh-7.jpg
+  type_of_cuisine: 0
+  num_of_viewed: 0
+
+fourteen:
+  name: Bun Bo 4 star
+  description:  Beef, Noodle
+  price: 65000
+  section: Dinner
+  imageUrl: http://danangfoodie.com/wp-content/uploads/2014/03/bh-7.jpg
+  type_of_cuisine: 1
+  num_of_viewed: 0
+
+fifteen:
+  name: Bun Bo 5 star
+  description:  Beef, Noodle
+  price: 75000
+  section: Dinner
+  imageUrl: http://danangfoodie.com/wp-content/uploads/2014/03/bh-7.jpg
+  type_of_cuisine: 1
+  num_of_viewed: 0
+
+sixteen:
+  name: Wine 1 star
+  description:  Alcohol
+  price: 200000
+  section: Drinks
+  imageUrl: http://www.mywinetribe.com/wp-content/uploads/2012/09/shutterstock_1013504321.jpg
+  type_of_cuisine: 1
+  num_of_viewed: 0
+
+seventeen:
+  name: Wine 2 star
+  description:  Alcohol
+  price: 210000
+  section: Drinks
+  imageUrl: http://www.mywinetribe.com/wp-content/uploads/2012/09/shutterstock_1013504321.jpg
+  type_of_cuisine: 1
+  num_of_viewed: 0
+
+eighteen:
+  name: Wine 3 star
+  description:  Alcohol
+  price: 220000
+  section: Drinks
+  imageUrl: http://www.mywinetribe.com/wp-content/uploads/2012/09/shutterstock_1013504321.jpg
+  type_of_cuisine: 1
+  num_of_viewed: 0
+
+nineteen:
+  name: Wine 4 star
+  description:  Alcohol
+  price: 230000
+  section: Drinks
+  imageUrl: http://www.mywinetribe.com/wp-content/uploads/2012/09/shutterstock_1013504321.jpg
+  type_of_cuisine: 0
+  num_of_viewed: 0
+
+twenty:
+  name: Wine 5 star
+  description:  Alcohol
+  price: 250000
+  section: Drinks
+  imageUrl: http://www.mywinetribe.com/wp-content/uploads/2012/09/shutterstock_1013504321.jpg
+  type_of_cuisine: 0
+  num_of_viewed: 0
