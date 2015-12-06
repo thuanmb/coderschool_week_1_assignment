@@ -36,3 +36,6 @@
 
 ## Demo
 ![Demo](/demo/thuan_restaurant_demo.gif)
+
+## Link to app
+https://sheltered-lake-6191.herokuapp.com/
