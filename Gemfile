@@ -35,6 +35,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem "font-awesome-rails"
 gem 'underscore-rails', '~> 1.8', '>= 1.8.3'
+gem 'rails_12factor', group: 'production'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
